@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 30px;
 
 }
 .nav-menu{
@@ -11,13 +11,13 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 40px;
     font-size: 20px;
 
 }
 .nav-connect{
 
-    margin-left: 25px;
+    margin-left: 35px;
     padding: 20px 20px;
     border-radius: 50px;
     background: linear-gradient(267deg, #20c20e 0.36%, #c2710e 102.06%);
