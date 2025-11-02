@@ -1,33 +1,33 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Front-End Development",
+        s_desc:"Beautiful and functional user-side applications"
     },
     {
         s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Back-End Development",
+        s_desc:"Efficient and stable server-side database construction"
     },
     {
         s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Cloud Computing",
+        s_desc:"Cloud platform integration to reduce server overhead"
     },
     {
         s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"App Design",
+        s_desc:"Desktop and mobile application development"
     },
     {
         s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"Data Mangagement",
+        s_desc:"Data stream and storage optimization"
     },
     {
         s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
+        s_name:"UX Design",
+        s_desc:"Psychological principles as applied to user interfaces"
     },
 ]
  

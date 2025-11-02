@@ -3,6 +3,9 @@ import './Hero.css'
 import profile_img from '../../assets/profile_img.png'
 
 const Hero = () => {
+
+  const recipient = 'jacobmmmcguire@gmail.com';
+
   return (
     <div className='hero'>
         
@@ -11,8 +14,8 @@ const Hero = () => {
     <h2>I'm Jacob McGuire, a software developer based in Canada.</h2>
     <p>I am a software developer currently enrolled at Algoma University in the Computer Science program. I also hold a Bachelor's of Science in Psychology from York University and have published research articles in association with thier Undergraduate Research Journal.</p>
     <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
-        <div className="hero-resume">My Resume</div>
+        <a className="hero-connect"  href={`mailto:${recipient}`}>Connect with me</a>
+        <a className="hero-resume" href="https://docs.google.com/document/d/1Il8Q0LVBaPbUGIV2oqoTmwMef0tkf9ICC0rQNxPOIK4/edit?usp=sharing">My Resume</a>
     </div>
     </div>
   )

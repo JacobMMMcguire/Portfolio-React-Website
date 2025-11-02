@@ -3,21 +3,38 @@ import './Navbar.css'
 import logo from '../../assets/logo.svg'
 
 const Navbar = () => {
+
+  const recipient = 'jacobmmmcguire@gmail.com';
+
+
+  /*
+  function scrollToTarget (targetRef){
+
+    targetRef.scrollIntoView({
+
+      behavior: 'smooth',
+      block: 'start'
+
+    })
+    
+  }
+  */
+
   return (
     <div className = 'navbar'>
 
         <img src = {logo} alt = ""/>
+
+        
         <ul className = "nav-menu" >
-
-            <li>[Home]</li>
-            <li>[About Me]</li>
-            <li>[Services]</li>
-            <li>[Portfolio]</li>
-            <li>[Contact]</li>
-
+            {/** TODO: Add smooth scroll later */}
+            <a href="#about">[About Me]</a>
+            <a href="#services">[Services]</a>
+            <a href="#latest-work">[Portfolio]</a>
         </ul>
 
-        <div className = "nav-connect"> if(enjoyPage).then(CONTACT)</div>
+        
+        <a className = "nav-connect"  href={`mailto:${recipient}`}> if(enjoyPage).then(CONTACT)</a>
     
     </div>
   )

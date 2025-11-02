@@ -11,10 +11,22 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 40px;
+    gap: 90px;
     font-size: 20px;
-
 }
+
+.nav-menu a{
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+.nav-menu a:hover{
+    text-decoration: none;
+    color: #20c20e;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 .nav-connect{
 
     margin-left: 35px;
@@ -23,10 +35,13 @@
     background: linear-gradient(267deg, #20c20e 0.36%, #c2710e 102.06%);
     font-size: 16px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #FFFFFF
+
 }
 .nav-connect:hover{
 
-    transform: scale(1.05);
+    transform: scale(1.075);
 
 }
